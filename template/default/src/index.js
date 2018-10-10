@@ -1,22 +1,17 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
+import { Button } from '@material-ui/core';
 
-import styles from './styles.css'
+import styles from './styles.css';
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
+export default class MyApp extends Component {
   render() {
-    const {
-      text
-    } = this.props
+    const { text } = this.props;
 
     return (
       <div className={styles.test}>
-        Example Component: {text}
+        My App is
+        <Button variant="contained" color="secondary">{text}</Button>
       </div>
-    )
+    );
   }
 }

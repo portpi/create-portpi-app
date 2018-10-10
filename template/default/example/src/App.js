@@ -1,13 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
 
-import ExampleComponent from '{{name}}'
+import MyPortPiApp from '{{name}}';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+      <section>
+        <AppBar position="static">
+          <Toolbar>
+            <Typography variant="h6" color="inherit">
+              PortPi {{name}}
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <MyPortPiApp text='Awesome!' />
+      </section>
+    );
   }
 }
