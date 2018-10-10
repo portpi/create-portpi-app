@@ -56,5 +56,7 @@ For now only the following packages can be used in your app:
 ## License
 
 MIT © [Travis Fischer](https://github.com/transitive-bullshit)
+
 MIT © [Vivo Xu](https://github.com/hivivo)
+
 MIT © [PortPi](https://github.com/portpi)
