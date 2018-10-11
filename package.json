@@ -1,6 +1,6 @@
 {
   "name": "create-portpi-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for creating PortPi apps",
   "repository": "portpi/create-react-library",
   "author": "Vivo Xu <vivo@fancyber.com>",
