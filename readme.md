@@ -51,12 +51,12 @@ Now, anytime you make a change to your app in `src/` or to the example dev serve
 For now only the following packages can be used in your app:
 
 * react
+* prop-types
 * @material-ui/core
+* @material-ui/icons
 
 ## License
 
-MIT © [Travis Fischer](https://github.com/transitive-bullshit)
-
-MIT © [Vivo Xu](https://github.com/hivivo)
-
-MIT © [PortPi](https://github.com/portpi)
+* MIT © [Travis Fischer](https://github.com/transitive-bullshit)
+* MIT © [Vivo Xu](https://github.com/hivivo)
+* MIT © [PortPi](https://github.com/portpi)
