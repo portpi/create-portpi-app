@@ -3,6 +3,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import resolve from 'rollup-plugin-node-resolve';
+import replace from 'rollup-plugin-replace';
 import url from 'rollup-plugin-url';
 import svgr from '@svgr/rollup';
 
@@ -34,6 +35,9 @@ export default {
       plugins: [ 'external-helpers' ]
     }),
     resolve(),
-    commonjs()
+    commonjs(),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
   ]
 }
